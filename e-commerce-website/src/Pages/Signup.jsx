@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-
+import './Signup.css';
 function Signup() {
   const [formData, setFormData] = useState({
     username: '',
@@ -19,7 +19,8 @@ function Signup() {
   };
 
   return (
-    <div>
+    <div className='signup-div'>
+      <div className='signup-container'>
       <h2>Registration</h2>
       <input
         type="text"
@@ -43,6 +44,8 @@ function Signup() {
         onChange={handleInputChange}
       />
       <button onClick={handleRegistration}>Register</button>
+      <span>Already have an account? Login <a href='/login'>here</a></span>
+      </div>
     </div>
   );
 }

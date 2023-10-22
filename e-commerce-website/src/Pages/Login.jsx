@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import './Login.css';
 import { useNavigate } from 'react-router-dom';
 function Login() {
   const navigate = useNavigate(); 
@@ -35,9 +36,12 @@ function Login() {
 
 
   return (
-    <div>
-      <h2>Login</h2>
+    <div className='login-div'>
+    <div className='login-container'>
+
+      <h2>Login Here</h2>
       <input
+      
         type="email"
         name="email"
         placeholder="Email"
@@ -51,7 +55,8 @@ function Login() {
         value={formData.password}
         onChange={handleInputChange}
       />
-      <button onClick={handleLogin}>Login</button>
+      <button onClick={handleLogin}>LOGIN</button>
+    </div>
     </div>
   );
 }

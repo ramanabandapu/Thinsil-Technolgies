@@ -1,0 +1,51 @@
+.login-container{
+    /* border: 1px solid red; */
+    width: 400px;
+    margin: auto;
+    height: 400px;
+    background-color: transparent;
+    
+}
+.login-div{
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://img.freepik.com/premium-photo/natural-spa-background-illustration-ai-generative_118124-25432.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.login-div {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+input{
+    width: 98%;
+    height: 40px;
+    margin-bottom: 20px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+button{
+    width: 100%;
+    padding: 9px 25px;
+    border-radius: 5px;
+    border: none;
+    font-size: medium;
+}
+
+button:hover{
+    cursor: pointer;
+    color: white;
+    background-color:  #1d9bf0;
+}
+
+h2{
+    color: white;
+    padding-bottom: 10px;
+}
+
+
+
