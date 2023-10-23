@@ -1,0 +1,124 @@
+.static-div{
+    /* border:1px solid red; */
+    height: 110px;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+/* .static-div > div {
+    border: 1px solid green;
+} */
+.static-div{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+h1{
+    font-size: 25px;
+}
+h5{
+    font-weight: 600;
+}
+
+p{
+    font-size: 15px;
+    color: rgb(95, 96, 97);
+}
+
+.static-2-div{
+    background-color: rgb(244,244,244);
+    padding-left: 50px;
+    height: 170px;
+    padding-top: 15px;
+}
+
+
+.static-3-div{
+    background-color: rgb(244,244,244);
+    padding-left: 50px;
+    height: 100px;
+    padding-top: 15px;
+}
+
+
+.products-grid  {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+    align-items: center;
+    justify-content: space-between;
+    width: 97vw;
+}
+.products-grid .product-item{
+    width: 280px;
+    /* border: 1px solid #787878; */
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.products-grid .product-item:hover{
+scale: 1.03;
+/* color: rgb(0,136,204); */
+}
+.category{
+    text-overflow: ellipsis;
+    text-wrap: nowrap;
+    overflow: hidden;
+    color: rgb(167,167,167);
+    font-size: 14px;
+}
+
+
+.strike-price{
+    text-decoration: line-through;
+    padding-right: 30px;
+    color: rgb(167,167,167);
+    font-size: 15px;
+}
+.normal-price{
+    font-weight: bold;
+}
+
+
+.categor:hover{
+    color: rgb(0,136,204);
+    cursor: pointer;
+}
+.ellips:hover{
+    color: rgb(0,136,204);
+    cursor: pointer;
+}
+
+.cart-btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    /* padding-left: 10%; */
+}
+
+.cart-btn button{
+    padding: 5px;
+    font-size: medium;
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+}
+.cart-btn button:hover{
+    color: white;
+    background-color: rgb(0,136,204);
+}
+
+.imgdiv{
+    height: 250px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.imgdiv img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.products-container{
+   padding-top: 30px;
+   
+}
+

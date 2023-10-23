@@ -1,0 +1,104 @@
+.pages-div {
+    display: flex;
+    flex-direction: column;
+    /* gap: 20px; */
+    /* border: 1px solid red; */
+   
+  }
+  
+  .Navbar-div {
+    /* border: 1px solid red; */
+    height: 140px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  }
+  
+  .Navbar-div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 10;
+    background-color: #ffffff;
+  }
+  
+  .mobile{
+    font-size: 12px;
+    color: #787878;
+  }
+  .pages-1-div {
+    /* border: 1px solid red; */
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-evenly;
+  }
+  
+  
+  
+  .pages-1-div  p {
+    color: grey;
+    font-size: small;
+    background-color: transparent;
+  }
+  .pages-1-div  p:hover,
+  .pages-1-div  a:hover{
+    color: rgb(0, 136, 204);
+    cursor: pointer;
+  }
+  
+input {
+   border: 1px solid grey;
+    border-radius: 5px;
+   
+  } 
+   
+  .input-container {
+    position: relative;
+    /* padding-top: 20px; */
+    border: 1px solid grey;
+    height: 30px;
+    border-radius: 5px;
+    /* width: 80px; */
+  }
+  .search-icon {
+    position: absolute;
+    top: 7px;
+    right: 10px;
+  }
+  
+  .social-div {
+    display: flex;
+    gap: 10px;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  
+  .pages-2-div {
+    /* border: 1px solid red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* background-color: #fff;  */
+      margin-bottom: 10px; 
+  }
+  
+  .pages-2-div  button {
+    background-color: transparent;
+    font-weight: bold;
+    color: rgb(0, 136, 204);  
+    cursor: pointer;
+    padding: 10px 15px;
+    /* justify-content: space-around; */
+    font-size: small;
+  }
+  
+  .pages-2-div > button:hover {
+    background-color: rgb(0, 136, 204);
+    color: white;
+    border-radius: 3px;
+  }
+  
+  

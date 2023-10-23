@@ -1,0 +1,205 @@
+{
+    "ProductList": [
+      {
+        "id": 1,
+        "title": "Nuturemite Ashwagandha Powder 900 gms",
+        "price": 844.00,
+        "strikedPrice": 1998,
+        "description": "SHTAVARI WOMEN HEALTH HORMONAL BALANCE ESTROGEN LEVELS BREAST HEALTH HOT FLASHES LACTATION FERTILITY VITAMINS FOLIC ACID OVULATION MENOPAUSAL",
+        "category": "AYURVEDIC",
+        "image": "https://nuturemite.info/wp-content/uploads/2022/11/1074342-3.jpg",
+        "rating": { "rate": 3.9, "count": 120 }
+      },
+      {
+        "id": 2,
+        "title": "Nuturemite Amla Powder 250 gms ",
+        "price": 128,
+        "strikedPrice": 198,
+        "description": "AMLA, EMBLICA OFFICINALLIS, HAIR HEALTH, INDIAN GOOSEBERRY, SKIN HEALTH, SKIN LIGHTING, VITAMIN C",
+        "category": "ANTIOXIDANTS",
+        "image": "https://nuturemite.info/wp-content/uploads/2022/11/1074341-3-scaled.jpg",
+        "rating": { "rate": 4.1, "count": 259 }
+      },
+      {
+        "id": 3,
+        "title": "Nuturemite Abso curcumin 500 mg Veg capsules",
+        "price":858,
+        "strikedPrice":1073,
+        "description": "",
+        "category": "MEN HEALTH, WOMEN HEALTH",
+        "image": "https://nuturemite.info/wp-content/uploads/2022/11/1074354-1.jpg",
+        "rating": { "rate": 4.7, "count": 500 }
+      },
+      {
+        "id": 4,
+        "title": "Nuturemite AstaReal Astaxanthin 6 mg Veg Capsules",
+        "price": 413,
+        "strikedPrice": 516,
+        "description": "ASTAREAL, ASTAXANTHIN, DOCOSAHEXAENOIC ACID, GLUTATHIONE, LUTEIN",
+        "category": "ANTIOXIDANTS, VITAMINS& MINERALS",
+        "image": "https://nuturemite.info/wp-content/uploads/2022/11/1074360-1.jpg",
+        "rating": { "rate": 2.1, "count": 430 }
+      },
+      {
+          "id": 5,
+          "title": "Nuturemite Ashwagandha Powder 900 gms",
+          "price": 844.00,
+          "strikedPrice": 1998,
+          "description": "SHTAVARI WOMEN HEALTH HORMONAL BALANCE ESTROGEN LEVELS BREAST HEALTH HOT FLASHES LACTATION FERTILITY VITAMINS FOLIC ACID OVULATION MENOPAUSAL",
+          "category": "AYURVEDIC",
+          "image": "https://nuturemite.info/wp-content/uploads/2022/11/1074342-3.jpg",
+          "rating": { "rate": 3.9, "count": 120 }
+        },
+        {
+          "id": 6,
+          "title": "Nuturemite Amla Powder 250 gms ",
+          "price": 128,
+          "strikedPrice": 198,
+          "description": "AMLA, EMBLICA OFFICINALLIS, HAIR HEALTH, INDIAN GOOSEBERRY, SKIN HEALTH, SKIN LIGHTING, VITAMIN C",
+          "category": "ANTIOXIDANTS",
+          "image": "https://nuturemite.info/wp-content/uploads/2022/11/1074341-3-scaled.jpg",
+          "rating": { "rate": 4.1, "count": 259 }
+        },
+        {
+          "id": 7,
+          "title": "Nuturemite Abso curcumin 500 mg Veg capsules",
+          "price":858,
+          "strikedPrice":1073,
+          "description": "",
+          "category": "MEN HEALTH, WOMEN HEALTH",
+          "image": "https://nuturemite.info/wp-content/uploads/2022/11/1074354-1.jpg",
+          "rating": { "rate": 4.7, "count": 500 }
+        },
+        {
+          "id": 8,
+          "title": "Nuturemite AstaReal Astaxanthin 6 mg Veg Capsules",
+          "price": 413,
+          "strikedPrice": 516,
+          "description": "ASTAREAL, ASTAXANTHIN, DOCOSAHEXAENOIC ACID, GLUTATHIONE, LUTEIN",
+          "category": "ANTIOXIDANTS, VITAMINS& MINERALS",
+          "image": "https://nuturemite.info/wp-content/uploads/2022/11/1074360-1.jpg",
+          "rating": { "rate": 2.1, "count": 430 }
+        },
+      {
+          "id": 9,
+          "title": "Nuturemite Ashwagandha Powder 900 gms",
+          "price": 844.00,
+          "strikedPrice": 1998,
+          "description": "SHTAVARI WOMEN HEALTH HORMONAL BALANCE ESTROGEN LEVELS BREAST HEALTH HOT FLASHES LACTATION FERTILITY VITAMINS FOLIC ACID OVULATION MENOPAUSAL",
+          "category": "AYURVEDIC",
+          "image": "https://nuturemite.info/wp-content/uploads/2022/11/1074342-3.jpg",
+          "rating": { "rate": 3.9, "count": 120 }
+        },
+        {
+          "id": 10,
+          "title": "Nuturemite Amla Powder 250 gms ",
+          "price": 128,
+          "strikedPrice": 198,
+          "description": "AMLA, EMBLICA OFFICINALLIS, HAIR HEALTH, INDIAN GOOSEBERRY, SKIN HEALTH, SKIN LIGHTING, VITAMIN C",
+          "category": "ANTIOXIDANTS",
+          "image": "https://nuturemite.info/wp-content/uploads/2022/11/1074341-3-scaled.jpg",
+          "rating": { "rate": 4.1, "count": 259 }
+        },
+        {
+          "id": 11,
+          "title": "Nuturemite Abso curcumin 500 mg Veg capsules",
+          "price":858,
+          "strikedPrice":1073,
+          "description": "",
+          "category": "MEN HEALTH, WOMEN HEALTH",
+          "image": "https://nuturemite.info/wp-content/uploads/2022/11/1074354-1.jpg",
+          "rating": { "rate": 4.7, "count": 500 }
+        },
+        {
+          "id": 12,
+          "title": "Nuturemite AstaReal Astaxanthin 6 mg Veg Capsules",
+          "price": 413,
+          "strikedPrice": 516,
+          "description": "ASTAREAL, ASTAXANTHIN, DOCOSAHEXAENOIC ACID, GLUTATHIONE, LUTEIN",
+          "category": "ANTIOXIDANTS, VITAMINS& MINERALS",
+          "image": "https://nuturemite.info/wp-content/uploads/2022/11/1074360-1.jpg",
+          "rating": { "rate": 2.1, "count": 430 }
+        },
+      {
+          "id": 13,
+          "title": "Nuturemite Ashwagandha Powder 900 gms",
+          "price": 844.00,
+          "strikedPrice": 1998,
+          "description": "SHTAVARI WOMEN HEALTH HORMONAL BALANCE ESTROGEN LEVELS BREAST HEALTH HOT FLASHES LACTATION FERTILITY VITAMINS FOLIC ACID OVULATION MENOPAUSAL",
+          "category": "AYURVEDIC",
+          "image": "https://nuturemite.info/wp-content/uploads/2022/11/1074342-3.jpg",
+          "rating": { "rate": 3.9, "count": 120 }
+        },
+        {
+          "id": 14,
+          "title": "Nuturemite Amla Powder 250 gms ",
+          "price": 128,
+          "strikedPrice": 198,
+          "description": "AMLA, EMBLICA OFFICINALLIS, HAIR HEALTH, INDIAN GOOSEBERRY, SKIN HEALTH, SKIN LIGHTING, VITAMIN C",
+          "category": "ANTIOXIDANTS",
+          "image": "https://nuturemite.info/wp-content/uploads/2022/11/1074341-3-scaled.jpg",
+          "rating": { "rate": 4.1, "count": 259 }
+        },
+        {
+          "id": 15,
+          "title": "Nuturemite Abso curcumin 500 mg Veg capsules",
+          "price":858,
+          "strikedPrice":1073,
+          "description": "",
+          "category": "MEN HEALTH, WOMEN HEALTH",
+          "image": "https://nuturemite.info/wp-content/uploads/2022/11/1074354-1.jpg",
+          "rating": { "rate": 4.7, "count": 500 }
+        },
+        {
+          "id": 16,
+          "title": "Nuturemite AstaReal Astaxanthin 6 mg Veg Capsules",
+          "price": 413,
+          "strikedPrice": 516,
+          "description": "ASTAREAL, ASTAXANTHIN, DOCOSAHEXAENOIC ACID, GLUTATHIONE, LUTEIN",
+          "category": "ANTIOXIDANTS, VITAMINS& MINERALS",
+          "image": "https://nuturemite.info/wp-content/uploads/2022/11/1074360-1.jpg",
+          "rating": { "rate": 2.1, "count": 430 }
+        },
+      {
+          "id": 17,
+          "title": "Nuturemite Ashwagandha Powder 900 gms",
+          "price": 844.00,
+          "strikedPrice": 1998,
+          "description": "SHTAVARI WOMEN HEALTH HORMONAL BALANCE ESTROGEN LEVELS BREAST HEALTH HOT FLASHES LACTATION FERTILITY VITAMINS FOLIC ACID OVULATION MENOPAUSAL",
+          "category": "AYURVEDIC",
+          "image": "https://nuturemite.info/wp-content/uploads/2022/11/1074342-3.jpg",
+          "rating": { "rate": 3.9, "count": 120 }
+        },
+        {
+          "id": 18,
+          "title": "Nuturemite Amla Powder 250 gms ",
+          "price": 128,
+          "strikedPrice": 198,
+          "description": "AMLA, EMBLICA OFFICINALLIS, HAIR HEALTH, INDIAN GOOSEBERRY, SKIN HEALTH, SKIN LIGHTING, VITAMIN C",
+          "category": "ANTIOXIDANTS",
+          "image": "https://nuturemite.info/wp-content/uploads/2022/11/1074341-3-scaled.jpg",
+          "rating": { "rate": 4.1, "count": 259 }
+        },
+        {
+            "id": 15,
+            "title": "Nuturemite Abso curcumin 500 mg Veg capsules",
+            "price":858,
+            "strikedPrice":1073,
+            "description": "",
+            "category": "MEN HEALTH, WOMEN HEALTH",
+            "image": "https://nuturemite.info/wp-content/uploads/2022/11/1074354-1.jpg",
+            "rating": { "rate": 4.7, "count": 500 }
+          },
+          {
+            "id": 12,
+            "title": "Nuturemite AstaReal Astaxanthin 6 mg Veg Capsules",
+            "price": 413,
+            "strikedPrice": 516,
+            "description": "ASTAREAL, ASTAXANTHIN, DOCOSAHEXAENOIC ACID, GLUTATHIONE, LUTEIN",
+            "category": "ANTIOXIDANTS, VITAMINS& MINERALS",
+            "image": "https://nuturemite.info/wp-content/uploads/2022/11/1074360-1.jpg",
+            "rating": { "rate": 2.1, "count": 430 }
+          }
+    ]
+  }
+  

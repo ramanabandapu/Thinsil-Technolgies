@@ -1,0 +1,34 @@
+.footer-div {
+    background-color: rgb(33, 37, 41);
+    color: rgb(95, 96, 97);
+    height: 350px;
+    font-size: 15px;
+  }
+  
+  .footer-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+  h4 {
+    color: white;
+    font-weight: lighter
+  }
+  
+  .footer-ad {
+    height: 100px;
+  
+    background-color: rgb(28, 32, 35);
+    color: rgb(95, 96, 97);
+    padding-left: 13%;
+  }
+  
+  .footer-ad {
+    display: flex;
+    align-items: center;
+    
+  }
+  h1 {
+    font-weight: bold;
+  }
+  
