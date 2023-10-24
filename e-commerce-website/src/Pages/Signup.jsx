@@ -1,6 +1,9 @@
 import React, { useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import './Signup.css';
 function Signup() {
+
+  const navigate = useNavigate();
   const [formData, setFormData] = useState({
     username: '',
     email: '',
@@ -16,6 +19,8 @@ function Signup() {
     // Save user data to local storage 
     localStorage.setItem(formData.email, JSON.stringify(formData));
     alert('Registration successful!');
+    navigate("./login");
+
   };
 
   return (

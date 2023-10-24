@@ -1,0 +1,15 @@
+.cart-container {
+    border: 1px solid red;
+   display: flex;
+   gap: 20px;
+   /* flex-wrap: nowrap; */
+   /* flex-direction: ; */
+   
+
+}
+.cart-container img{
+    height: 150px;
+}
+.cart-div{
+width: 150px;
+}

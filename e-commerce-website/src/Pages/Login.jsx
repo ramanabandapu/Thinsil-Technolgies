@@ -22,8 +22,9 @@ function Login() {
 
       if (user.password === formData.password) {
         alert('Login successful!');
+        navigate('/home')
         
-         navigate('/');
+        //  navigate('/');
       } else {
         alert('Invalid password.');
       }

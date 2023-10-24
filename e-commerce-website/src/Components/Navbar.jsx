@@ -9,9 +9,10 @@ import "react-social-icons/youtube";
 import "react-social-icons/linkedin";
 import "react-social-icons/instagram";
 import "./Navbar.css";
+import { useNavigate } from "react-router-dom";
 
 const Navbar = () => {
-
+const naviagate = useNavigate()
   const [isMobileMenuOpen, setMobileMenuOpen] = useState(false);
 
   const toggleMobileMenu = () => {
@@ -31,14 +32,14 @@ const Navbar = () => {
       <div className="pages-div">
       <div className={`pages-2-div ${isMobileMenuOpen ? 'menu-open' : ''}`}>
       {/* <i className="fas fa-bars menu-icon" onClick={toggleMobileMenu}></i> */}
-      <button>HOME</button>
+      <button onClick={()=>naviagate('/home')}>HOME</button>
       <button>BLOG</button>
-      <button>SHOP</button>
-      <button>CART</button>
+      <button onClick={()=>naviagate('/products')}>SHOP</button>
+      <button onClick={()=>naviagate('/cart')} >CART</button>
       <button>MY ACCOUNT</button>
       <button>ABOUT US</button>
-      <button>LOGIN</button>
-      <button>REGISTER</button>
+      <button onClick={()=>naviagate('/Login')}>LOGIN</button>
+      <button onClick={()=>naviagate('/Signup')}>REGISTER</button>
     </div>
 
        

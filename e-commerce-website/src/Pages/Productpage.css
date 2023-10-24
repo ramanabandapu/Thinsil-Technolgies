@@ -1,52 +1,26 @@
-.static-div{
-    /* border:1px solid red; */
-    height: 110px;
-    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+.Products{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
 }
-/* .static-div > div {
-    border: 1px solid green;
-} */
-.static-div{
-    display:flex;
-    align-items: center;
-    justify-content: space-around;
+.filter-container{
+width: 23vw;
+/* border: 1px solid red; */
 }
-h1{
-    font-size: 25px;
+.filter-div{
+    padding: 10px;
+    text-align: center;
+    /* border: 1px solid black; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
-h5{
-    font-weight: 600;
-}
-
-p{
-    font-size: 15px;
-    color: rgb(95, 96, 97);
-}
-
-.static-2-div{
-    background-color: rgb(244,244,244);
-    padding-left: 50px;
-    height: 170px;
-    padding-top: 15px;
-}
-
-
-.static-3-div{
-    background-color: rgb(244,244,244);
-    padding-left: 50px;
-    height: 100px;
-    padding-top: 15px;
-}
-
-
 .products-grid  {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     gap: 15px;
-    align-items: center;
+    /* align-items: center; */
     justify-content: space-between;
-    width: 97vw;
+    width: 70vw;
 }
 .products-grid .product-item{
     width: 280px;
@@ -77,7 +51,6 @@ scale: 1.03;
 }
 .normal-price{
     font-weight: bold;
-    color: #000;
 }
 
 
@@ -94,11 +67,11 @@ scale: 1.03;
     display: flex;
     align-items: center;
     justify-content: space-around;
-    /* padding-left: 10%; */
+    padding-left: 10%;
 }
 
 .cart-btn button{
-    padding: 5px;
+    padding: 2px 8px;
     font-size: medium;
     box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
 }
@@ -107,6 +80,10 @@ scale: 1.03;
     background-color: rgb(0,136,204);
 }
 
+.sorting-div{
+    color: grey;
+    font-size: medium;
+}
 .imgdiv{
     height: 250px;
     overflow: hidden;
@@ -118,8 +95,10 @@ scale: 1.03;
     object-fit: cover;
 }
 
-.products-container{
-   padding-top: 30px;
-   
+.cart-icon{
+    font-size: 60px;
 }
-
+.cart-icon:hover{
+    cursor: pointer;
+    
+}
